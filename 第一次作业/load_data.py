@@ -5,9 +5,9 @@ import pandas as pd
 
 # choose dataset to process
 dataset = 'ml-100k'
-raw_data_path = os.path.join(os.getcwd(), 'data', dataset, 'ratings.dat')
+raw_data_path = os.path.join(os.getcwd(), 'Movielens', dataset, 'ratings.dat')
 print("raw_data_path",raw_data_path)
-processed_data_path = os.path.join(os.getcwd(), 'processed_data', dataset)
+processed_data_path = os.path.join(os.getcwd(), 'data', dataset)
 print("processed_data_path",processed_data_path)
 
 names = ['user_id', 'item_id', 'rating', 'timestamp']
